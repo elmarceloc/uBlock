@@ -262,6 +262,7 @@ vAPI.i18n.render();
 
 /******************************************************************************/
 
+// Localisates a "Emplased Time" string
 vAPI.i18n.renderElapsedTimeToString = function(tstamp) {
     let value = (Date.now() - tstamp) / 60000;
     if ( value < 2 ) {
